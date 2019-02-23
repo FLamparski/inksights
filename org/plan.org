@@ -1,0 +1,45 @@
+#+TITLE: Plan
+#+AUTHOR: Filip
+#+DATE: 2019-02-23
+
+* Stage 1: Breadboard prototype
+
+** TODO Display image on screen
+   SCHEDULED: <2019-06-01>
+   *** TODO Use WaveShare example code
+   *** TODO Initial UI pass
+
+** TODO Connect to WiFi
+   *** TODO Get current time with SNTP
+   *** TODO Display current time
+
+** TODO Display weather
+   *** TODO Fetch data from a weather service
+   *** TODO Display temperature and condition
+   *** TODO Display whether you need an umbrella or sunscreen
+
+** TODO Display trains
+   *** TODO Fetch data from the trains service
+   *** TODO Display next train you want
+   *** TODO Analyse all trains at given station to check if they are running late
+   *** TODO Display whether the trains are running late
+
+** TODO Display headlines
+   *** TODO Read an RSS feed
+   *** TODO Display headlines
+
+* Stage 2: Self-powered prototype
+
+** TODO Power the MCU from the lithium battery
+   *** TODO Build a battery power supply
+       Output required: 3.3V, 500mA max
+** TODO Display battery level on screen
+   *** TODO Read Vbatt with an ADC
+   *** TODO Calibrate Vbatt range
+   *** TODO Display battery percentage
+
+* Stage 3: Build prototype enclosure
+
+* Stage 4: Custom PCB
+
+* Stage 5: Final enclosure

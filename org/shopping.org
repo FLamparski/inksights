@@ -1,0 +1,47 @@
+#+TITLE: Shopping List
+#+AUTHOR: Filip
+#+DATE: 2019-02-23
+
+* Stage 1: Breadboard prototype
+
+** PLANND Waveshare 7.5" e-ink display
+   SCHEDULED: <2019-05-01>
+   ORIGIN: China
+   SHIP TIME: 30 days
+   Option 1 (B/W + breakout), $54: https://www.waveshare.com/product/7.5inch-e-paper-hat.htm
+   Option 2 (B/W/R + breakout), $60: https://www.waveshare.com/product/7.5inch-e-paper-hat-b.htm
+   Option 3 (B/W/Y + breakout), $62: https://www.waveshare.com/product/7.5inch-e-paper-hat-c.htm
+** DELIVD ESP32 WiFi microcontroller
+   ORIGIN: UK
+   SHIP TIME: 7 days
+   *Option 1 (Selected)* (DevKitC v1), £6.50 (in pack of 2): https://smile.amazon.co.uk/SeeKool-Development-Microcontroller-Integrated-Compatible/dp/B07DQFG46V/
+   Option 2 (DevKitC v4), £12: https://smile.amazon.co.uk/Espressif-DevKitC-V4-ESP32-WROOM-32-CP2102N/dp/B07G7BZPMM/
+
+* Stage 2: Self-powered rats nest of wires
+
+** PLANND Lithium Battery (Protected)
+   SCHEDULED: <2019-05-01>
+   ORIGIN: China
+   SHIP TIME: 30 days
+   $5.10: https://www.aliexpress.com/item/Free-shipping-New-Protected-Original-Panasonic-18650-NCR18650B-3-7V-3400mAh-Rechargeable-Li-ion-Battery-Batteries/32969782741.html
+** PLANND Battery holder
+   SCHEDULED: <2019-05-01>
+   ORIGIN: China
+   SHIP TIME: 30 days
+   $0.50: https://www.aliexpress.com/item/1pcs-18650-Power-Battery-Storage-Case-Box-Holder-Leads-With-1-2-3-4-Slots-drop/32823843782.html
+** PLANND Wiring
+   *** TODO How much wiring needed?
+** PLANND Passive components
+   *** TODO Figure out what is needed
+   *** TODO Figure out what I have already
+
+* Formalize this into a Bill Of Materials
+
+| Item        | Qty | Cost   |
++-------------+-----+--------+
+| Display     |   1 | $60.00 |
+| ESP32       |   1 |  £6.50 |
+| Battery     |   1 |  $5.10 |
+| Batt Holder |   1 |  $0.50 |
++-------------+-----+--------+
+| Total       |     |   ???? |
